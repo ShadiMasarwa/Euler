@@ -10,8 +10,6 @@ namespace Q4
     {
         static void Main(string[] args)
         {
-            int r = 6;
-            string str = r;
             int maxPalindrome;
             string str = "";
             for (int i=100; i<1000; i++)
