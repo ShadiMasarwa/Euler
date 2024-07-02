@@ -10,8 +10,8 @@ namespace Q3
     {
         static void Main(string[] args)
         {
-            long num = 100;
-            long maxPrimeFactor = 24;
+            long num = 600_851_475_143;
+            long maxPrimeFactor = 2;
 
 
 

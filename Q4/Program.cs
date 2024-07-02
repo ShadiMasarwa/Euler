@@ -10,13 +10,14 @@ namespace Q4
     {
         static void Main(string[] args)
         {
-            int maxPalindrome;
+            int maxPalindrome=0;
             string str = "";
             for (int i=100; i<1000; i++)
             {
                 for(int j=i; j<1000; j++)
                 {
-                    if (IsPalindrome(i*j))
+                    int product = i * j;
+                    if (IsPalindrome(product) && product>maxPalindrome)
                     {
                         maxPalindrome = i * j;
                         str = i.ToString() + " X " + j.ToString() + " = " + maxPalindrome;
